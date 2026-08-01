@@ -15,6 +15,13 @@
     <string name="open_with">Отваряне с</string>
     <string name="show_menu">Покажи Главно меню</string>
     <string name="torrents">Торенти</string>
+	<string name="categories">Категории</string>
+    <string name="category_all">Всичко</string>
+    <string name="category_movies">Филми</string>
+    <string name="category_series">Сериали</string>
+    <string name="category_music">Музика</string>
+    <string name="category_other">Други</string>
+    <string name="category_uncategorized">Некатегоризирано</string>
     <string name="apply">Приложи</string>
     <string name="skip">Пропусни</string>
     <string name="yes">Да</string>

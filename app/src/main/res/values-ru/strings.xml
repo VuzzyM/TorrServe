@@ -15,6 +15,13 @@
     <string name="open_with">Открыть с помощью</string>
     <string name="show_menu">Показать главное меню</string>
     <string name="torrents">Торренты</string>
+    <string name="categories">Категории</string>
+    <string name="category_all">Все</string>
+    <string name="category_movies">Фильмы</string>
+    <string name="category_series">Сериалы</string>
+    <string name="category_music">Музыка</string>
+    <string name="category_other">Другое</string>
+    <string name="category_uncategorized">Без категории</string>
     <string name="apply">Применить</string>
     <string name="skip">Пропустить</string>
     <string name="yes">Да</string>

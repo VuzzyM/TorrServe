@@ -55,6 +55,7 @@ import ru.yourok.torrserve.utils.Net
 import ru.yourok.torrserve.utils.Permission
 import ru.yourok.torrserve.utils.SpanFormat
 import ru.yourok.torrserve.utils.ThemeUtil
+import ru.yourok.torrserve.ui.fragments.main.categories.CategoriesFragment
 import kotlin.system.exitProcess
 
 
@@ -628,6 +629,15 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<FrameLayout>(R.id.btnSettings)?.setOnClickListener {
             SettingsFragment().show(this@MainActivity, R.id.container)
+            closeMenu()
+        }
+
+        findViewById<FrameLayout>(R.id.btnCategories)?.setOnClickListener {
+            CategoriesFragment().show(
+                this,
+                R.id.container,
+                true
+            )
             closeMenu()
         }
 
